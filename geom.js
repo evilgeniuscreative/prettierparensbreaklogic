@@ -64,8 +64,8 @@ class Triangle {
             }
             console.log('obtuse s', s);
         });
-
-        if (Math.pow(h, 2) > Math.pow(b, 2) + Math.pow(o, 2)) {
+        // PRETTIER REMOVES THESE PARENTHESES AND BREAKS THE LOGIC. THIS IS JUST ONE EXAMPLE. 
+        if (Math.pow(h, 2) > ( Math.pow(b, 2) + Math.pow(o, 2) ) ) {
             return true;
         } else {
             return false;
