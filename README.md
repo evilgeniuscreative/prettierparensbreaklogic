@@ -4,13 +4,13 @@ Prettier VSCode extension breaks logic
 # Examples #
 
 ````
-  if (Math.pow(h, 2) > (Math.pow(b, 2) + Math.pow(o, 2))) {
+  if (Math.pow(h, 2) > ( Math.pow(b, 2) + Math.pow(o, 2) ) ) {
             return true;
   }
 
 IS NOT THE SAME AS
 
-  if (Math.pow(h, 2) > Math.pow(b, 2) + Math.pow(o, 2)) {
+  if ( Math.pow(h, 2) > Math.pow(b, 2) + Math.pow(o, 2) ) {
             return true;
   }  
 ````
